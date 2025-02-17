@@ -1,0 +1,108 @@
+/* Réorganisation du layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Manrope', sans-serif;
+  background-color: #1f2039;
+  min-height: 100vh;
+}
+
+/* Barre de navigation verticale */
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 200px;
+  background-color: #12122e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+a {
+  color: #242424;
+  text-decoration: none;
+}
+
+em {
+  color: #a5b4fc;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: #a5b4fc;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: #f9f8ff;
+}
+
+p,
+li {
+  font-size: 1.1em;
+  color: #f9f8ff;
+}
+
+
+nav a {
+  display: block; /* Assure que chaque lien prend toute la ligne */
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+/* Contenu principal */
+main {
+  margin-left: 200px; /* Décaler pour laisser place à la barre de navigation */
+  padding: 20px;
+  flex: 1;
+}
+
+section {
+  padding: 50px;
+}
+
+/* Footer ajustable */
+footer {
+  display: flex;
+  justify-content: center;
+
+  background-color: white;
+  padding: 15px;
+  width: 100%;
+  margin-top: auto;
+}
+.cta {
+  display: inline-block;
+  background: linear-gradient(green, aquamarine);
+  color: white;
+  border-radius: 50px;
+  padding: 20px 30px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.cta:hover {
+  background: linear-gradient(#696484, #8788ba);
+  text-decoration: none;
+}
+
+.lien-icone {
+  margin-left: 30px;
+}
+
+.lien-icone:hover {
+  opacity: 0.5;
+}
