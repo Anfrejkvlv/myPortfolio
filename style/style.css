@@ -1,19 +1,21 @@
-/* Réorganisation du layout */
+/* Réinitialisation des styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Styles de base */
 body {
   display: flex;
   flex-direction: column;
   font-family: 'Manrope', sans-serif;
   background-color: #1f2039;
   min-height: 100vh;
+  color: #f9f8ff;
 }
 
-/* Barre de navigation verticale */
+/* Barre de navigation */
 nav {
   position: fixed;
   left: 0;
@@ -26,44 +28,23 @@ nav {
   align-items: center;
   padding-top: 20px;
 }
-a {
-  color: #242424;
-  text-decoration: none;
-}
-
-em {
-  color: #a5b4fc;
-  font-style: normal;
-}
-
-h1 {
-  font-size: 3.5em;
-  color: #a5b4fc;
-  font-family: 'Montserrat', sans-serif;
-}
-
-h2 {
-  color: #f9f8ff;
-}
-
-p,
-li {
-  font-size: 1.1em;
-  color: #f9f8ff;
-}
-
 
 nav a {
-  display: block; /* Assure que chaque lien prend toute la ligne */
+  display: block;
   color: white;
   text-decoration: none;
   font-size: 1.2em;
   padding: 10px;
+  margin: 10px 0;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 /* Contenu principal */
 main {
-  margin-left: 200px; /* Décaler pour laisser place à la barre de navigation */
+  margin-left: 200px; /* Décalage pour la barre de navigation */
   padding: 20px;
   flex: 1;
 }
@@ -72,37 +53,73 @@ section {
   padding: 50px;
 }
 
-/* Footer ajustable */
+/* Footer */
 footer {
   display: flex;
-  justify-content: center;
-
+  justify-content: space-between;
+  align-items: center;
   background-color: white;
-  padding: 15px;
+  padding: 15px 50px;
   width: 100%;
   margin-top: auto;
 }
+
+footer a {
+  margin: 0 10px;
+}
+
+/* Boutons */
 .cta {
   display: inline-block;
   background: linear-gradient(green, aquamarine);
   color: white;
   border-radius: 50px;
   padding: 20px 30px;
-}
-
-a:hover {
-  text-decoration: underline;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .cta:hover {
   background: linear-gradient(#696484, #8788ba);
-  text-decoration: none;
 }
 
+/* Liens icônes */
 .lien-icone {
   margin-left: 30px;
 }
 
 .lien-icone:hover {
   opacity: 0.5;
+}
+
+/* Media Queries pour les petits écrans */
+@media screen and (max-width: 996px) {
+  nav {
+    width: 100%;
+    height: auto;
+    position: static;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  main {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+  }
+
+  footer a {
+    margin: 10px 0;
+  }
 }

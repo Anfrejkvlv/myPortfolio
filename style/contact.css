@@ -1,0 +1,62 @@
+/* Styles pour la section de confirmation */
+.confirmation-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #1f2039;
+}
+
+.confirmation-container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: #2c2c54;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.confirmation-message {
+    text-align: center;
+    color: #f9f8ff;
+}
+
+.confirmation-message h1 {
+    font-size: 2em;
+    color: #a5b4fc;
+    margin-bottom: 20px;
+}
+
+.confirmation-message p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.confirmation-message strong {
+    color: #a5b4fc;
+}
+
+.error-message {
+    text-align: center;
+    color: #ff6b6b;
+    font-size: 1.2em;
+}
+
+/* Media Queries pour les petits écrans */
+@media screen and (max-width: 996px) {
+    .confirmation-section {
+        padding: 20px;
+    }
+
+    .confirmation-container {
+        padding: 15px;
+    }
+
+    .confirmation-message h1 {
+        font-size: 1.5em;
+    }
+
+    .confirmation-message p {
+        font-size: 1em;
+    }
+}

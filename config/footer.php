@@ -1,8 +1,5 @@
 </main>
 <footer>
-    <a style="margin-right: 450px;" href="/index.html" class="lien-icone">
-        <img src="../images/lce1.png" alt="Mon logo" />
-    </a>
     <div>
         <a style="margin-right: 50px;" target="_blank" href="https://www.linkedin.com/in/loubah-emma/" class="lien-icone">
             <img src="../images/LinkedIn%202.png" alt="Logo LinkedIn" />
@@ -13,5 +10,4 @@
     </div>
 </footer>
 </body>
-
 </html>

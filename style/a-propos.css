@@ -1,67 +1,37 @@
-.carre-contenu {
-  border-right: 1px solid #8e86b5;
-  border-bottom: 1px solid #8e86b5;
-  padding: 50px;
-  width: 50%;
-  margin: auto;
-  margin-bottom: 80px;
-}
-
-.carre-contenu h2 {
-  margin-top: 30px;
-}
-
-.carre-contenu ul {
-  margin-top: 30px;
-}
-
-.carre-contenu + div {
-  text-align: center;
-}
-
+/* Section principale */
 .a-propos-main {
+  max-width: 1000px;
   margin: auto;
+  padding: 50px;
 }
 
-table {
-  color: white;
-  text-align: center;
-  width: 100%;
-  border-collapse: collapse;
+.a-propos-main h1 {
+  color: #a5b4fc;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
 }
 
-td,
-th {
-  padding: 15px;
-  border: 1px solid #a5b4fc;
-}
-span{
-  //font: normal bold 20px/1 none;
-  font: italic small-caps bold 16px/2 cursive;
-}
-.pr{
-  margin-bottom: 13px;
-}
-td {
-  padding: 80px;
-}
-h3{
+.a-propos-main p {
   color: #f9f8ff;
-}
-h2 {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
-h1,
-h2 {
-  text-align: center;
+.a-propos-main ul {
+  margin-bottom: 20px;
 }
 
+.a-propos-main li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.a-propos-main .cta {
+  margin-top: 20px;
+}
+
+/* Media Queries pour les petits écrans */
 @media screen and (max-width: 996px) {
-  .section-tarifs {
-    display: none;
+  .a-propos-main {
+    padding: 20px;
   }
 }
-
-
-
