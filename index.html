@@ -11,6 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 <header>
@@ -19,11 +23,21 @@
             <img src="../images/lce1.png" alt="Mon Logo" />
         </a>
         <div>
-            <a href="index.html">Accueil</a>
-            <a href="a-propos.php">À propos</a>
-            <a href="portfolio.php">Portfolio</a>
+            <a href="index.html">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p>Accueil</p>
+            </a>
+            <a href="a-propos.php">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>À propos</p>
+            </a>
+            <a href="portfolio.php">
+            <i class="fa fa-eye w3-xxlarge"></i>
+            <p>Portfolio</p>
+            </a>
         </div>
     </nav>
+
 </header>
 <main>
     <section class="accueil-introduction">
@@ -42,12 +56,6 @@
         <img src="../images/Profile2.png" alt="Mon portrait" />
     </section>
     <h2>Mon dernier projet</h2>
-    <!--<section class="accueil-photos">
-        <div>
-            <img src="images/accueil/element-1.png" alt="Twelve apostles - Australie" />
-            <img src="images/accueil/element-2.png" alt="Wai-O-Tapu - Nouvelle-Zélande" />
-        </div>
-    </section>-->
     <section class="accueil-introduction">
         <div>
             <h2>Carnet de Santé Numérique</h2>
@@ -61,7 +69,7 @@
         </div>
         <img src="../images/csn%20(2).png" class="img-fluid" alt="Image du CSN" />
     </section>
-    <section id="contact" class="section-contact">
+    <section id="contact" class="section-contact contact">
         <h2>Vous avez une question ou souhaitez collaborer ? Envoyez-moi un message!</h2>
         <form method="POST" action="contact.php">
             <div class="form-nom-email">

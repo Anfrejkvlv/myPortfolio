@@ -7,8 +7,6 @@
     <link href="../style/style.css" rel="stylesheet" />
     <link href="../style/index.css" rel="stylesheet" />
     <link href="../style/a-propos.css" rel="stylesheet" />
-    <link href="../style/portfolio.css" rel="stylesheet" />
-    <link href="../style/contact.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
@@ -26,4 +24,3 @@
         </div>
     </nav>
 </header>
-<main class="a-propos-main">
