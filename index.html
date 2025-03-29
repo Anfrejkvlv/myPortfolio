@@ -18,22 +18,19 @@
 </head>
 <body>
 <header>
-    <nav>
-        <a href="index.html" class="lien-icone">
-            <img src="../images/lce1.png" alt="Mon Logo" />
-        </a>
-        <div>
-            <a href="index.html">
-            <i class="fa fa-home w3-xxlarge"></i>
-            <p>Accueil</p>
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-item">
+                <i class="fa fa-home"></i>
+                <span class="nav-text">Accueil</span>
             </a>
-            <a href="a-propos.php">
-            <i class="fa fa-user w3-xxlarge"></i>
-            <p>À propos</p>
+            <a href="a-propos.php" class="nav-item">
+                <i class="fa fa-user"></i>
+                <span class="nav-text">À propos</span>
             </a>
-            <a href="portfolio.php">
-            <i class="fa fa-eye w3-xxlarge"></i>
-            <p>Portfolio</p>
+            <a href="portfolio.php" class="nav-item">
+                <i class="fa fa-eye"></i>
+                <span class="nav-text">Portfolio</span>
             </a>
         </div>
     </nav>
@@ -43,32 +40,44 @@
     <section class="accueil-introduction">
         <div>
             <h1>LOUBAHASRA CHRIST EMMANUEL</h1>
-            <p style="font-size: 25px">
-                Je suis un développeur passionné par la création de solutions
-                <em>web dynamiques</em> et
-                s’allie avec <em>stylées</em>.
-                Ce projet porte sur la création d’une application PHP permettant d’ajouter, modifier,
-                supprimer les patients, les médecins et également la gestion des rendez-vous entre le médecin
-                et son patient puis l’ajout des documents tels les antécédents médicaux, avec stockage des
-                données dans MySQL.
+            <p style="font-size: 25px;">
+                <strong>Développeur logiciel accès JAVA | Passionné par l'Innovation et les Technologies</strong><br><br>
+                Je conçois des solutions numériques performantes et dynamiques, en alliant <em>design</em> et <em>fonctionnalité</em>.
+                Mon approche repose sur l’optimisation des performances, la structuration du code et l'expérience utilisateur. <br><br>
+                Mon dernier projet, un <strong>système de gestion hospitalière</strong>, permet d'ajouter, modifier et supprimer
+                les patients et médecins, tout en facilitant la gestion des rendez-vous et des antécédents médicaux.
+                Les données sont stockées de manière sécurisée dans <strong>MySQL</strong>.
             </p>
         </div>
-        <img src="../images/Profile2.png" alt="Mon portrait" />
+        <img src="../images/Profile2.png" alt="Mon portrait">
     </section>
-    <h2>Mon dernier projet</h2>
+
+    <h2>MON DERNIER PROJET</h2>
     <section class="accueil-introduction">
         <div>
-            <h2>Carnet de Santé Numérique</h2>
+            <h2>Système de Gestion Hospitalière</h2><br>
             <p>
-                Ce projet porte sur la création d’une application PHP permettant d’ajouter, modifier,
-                supprimer les patients, les médecins et également la gestion des rendez-vous entre le médecin
-                et son patient puis l’ajout des documents tels les antécédents médicaux, avec stockage des
-                données dans MySQL.
-                <a href="#">lien du site</a>
+                Cette solution centralise la gestion des patients, du personnel médical, de la facturation et des dossiers médicaux.
+                L'objectif est d'améliorer l'efficacité administrative tout en garantissant la sécurité des données. <br><br>
+
+                <strong>Fonctionnalités principales :</strong>
+            <ul>
+                <li>Gestion des patients et médecins</li>
+                <li>Planification des rendez-vous</li>
+                <li>Stockage sécurisé des antécédents médicaux</li>
+                <li>Optimisation du suivi administratif</li>
+            </ul><br>
+
+            <span style="color: red; font-weight: bold;">Confidentialité</span> : Seul le personnel autorisé peut interagir avec le système,
+            garantissant ainsi la protection des données médicales.<br><br>
+
+            <strong>Technologies utilisées :</strong> Java EE, MySQL, Tomcat, WildFly <br>
+            <a href="#" style="color: greenyellow; text-decoration: none" target="_blank">Voir le projet</a>
             </p>
         </div>
-        <img src="../images/csn%20(2).png" class="img-fluid" alt="Image du CSN" />
+        <img src="../images/gsh1.png" class="img-fluid" alt="Image du gsh">
     </section>
+
     <section id="contact" class="section-contact contact">
         <h2>Vous avez une question ou souhaitez collaborer ? Envoyez-moi un message!</h2>
         <form method="POST" action="contact.php">

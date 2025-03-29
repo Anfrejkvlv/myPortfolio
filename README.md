@@ -1,131 +1,49 @@
-Mon portfolio 
+# Développeur Full Stack | Spécialisé en Java EE, IA & Cybersécurité
 
-* {
-  margin: 0;
-  }
+Bienvenue sur mon dépôt GitHub ! 
+Je suis un **développeur Full Stack**, passionné par le **développement logiciel**, l'**Intelligence Artificielle** et la **Cybersécurité**.  
+Actuellement en **3e année de Licence Informatique** à la [FST Béni Mellal](https://fstbm.ac.ma/), je conçois des solutions **robustes, performantes et sécurisées**.
 
-body {
-font-family: 'Manrope', sans-serif;
-font-size: 1em;
-background-color: #1f2039;
-}
+---
 
-a {
-color: #242424;
-text-decoration: none;
-}
+## Compétences techniques
 
-em {
-color: #a5b4fc;
-font-style: normal;
-}
+### **Back-End**
+ **Java EE** (Spring Boot, JPA, Hibernate, Servlets, JSF, Maven)  
+ **PHP** pour le développement web dynamique  
+ **APIs RESTful** pour l'intégration et la communication entre systèmes
 
-h1 {
-font-size: 3.5em;
-color: #a5b4fc;
-font-family: 'Montserrat', sans-serif;
-}
+### **Front-End**
+ **HTML, CSS, JavaScript (jQuery)**  
+ **Angular** | **React.js** (en cours d'apprentissage)
 
-h2 {
-color: #f9f8ff;
-}
+### 🛠 **Base de Données & DevOps**
+ **MySQL, Oracle** pour la gestion des données  
+ **Déploiement sur Tomcat & WildFly**
 
-p,
-li {
-font-size: 1.1em;
-color: #f9f8ff;
-}
+---
 
-header,
-footer {
-background-color: white;
+## Compétences interpersonnelles
 
-color: white;
-text-align: center;
-padding: 15px 10px;
-position: relative; /* Ou `fixed` si tu veux qu'il reste toujours visible */
-width: 100%;
-bottom: 0;
-}
+ **Communication & Collaboration** : Capacité à travailler en équipe et à partager mes connaissances  
+ **Esprit critique & Résolution de problèmes** : Analyse approfondie des situations techniques  
+ **Adaptabilité** : Capacité à apprendre rapidement et à intégrer de nouvelles technologies  
+ **Gestion de projet** : Organisation, planification et suivi des tâches
 
-.cta {
-display: inline-block;
-background: linear-gradient(green, aquamarine);
-color: white;
-border-radius: 50px;
-padding: 20px 30px;
-}
+---
 
-a:hover {
-text-decoration: underline;
-}
+## Objectif
 
-.cta:hover {
-background: linear-gradient(#696484, #8788ba);
-text-decoration: none;
-}
+Je souhaite évoluer en tant que **Développeur Full Stack spécialisé en Intelligence Artificielle & Cybersécurité**,  
+en alliant **conception logicielle, optimisation des performances et sécurisation des systèmes**.  
+Je suis ouvert à toute opportunité d’apprentissage et de collaboration sur des projets innovants. 🚀
 
-.lien-icone {
-margin-left: 30px;
-}
+---
 
-.lien-icone:hover {
-opacity: 0.5;
-}
+## Me contacter
+ **Email** : elouabahasra@gmail.com  
+ **LinkedIn** : https://www.linkedin.com/in/loubah-emma/  
+ **Portfolio** : loubahasra.emmanuel.kesug.com
 
-section {
-padding: 80px;
-}
-
-footer,
-nav {
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-between;
-}
-
-nav a {
-margin-left: 30px;
-}
-
-@media screen and (max-width: 996px) {
-header nav {
-flex-direction: column;
-align-items: center;
-justify-content: center;
-}
-
-header nav img {
-margin-bottom: 20px;
-}
-
-header,
-footer {
-padding: 20px 20px;
-}
-
-h1 {
-font-size: 2em;
-}
-
-section {
-padding: 50px 20px 50px 20px;
-}
-main {
-flex: 1; /* Permet au contenu de prendre l'espace restant */
-}
-nav a {
-margin-left: 10px;
-margin-right: 10px;
-}
-
-}
-html, body {
-height: 100%;
-margin: 0;
-display: flex;
-flex-direction: column;
-}
-
+Pour une collaboration sur un projet ou discuter de nouvelles opportunités, n’hésite pas à me contacter ! 
 

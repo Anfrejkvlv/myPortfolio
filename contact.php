@@ -1,4 +1,4 @@
-<?php include '../config/headerC.php'?>
+<?php include 'config/headerC.php'?>
 <main >
     <section class="confirmation-section">
         <div class="confirmation-container">
