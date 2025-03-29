@@ -28,6 +28,26 @@
         </div>
         <img src="../images/csn%20(2).png" class="img-fluid" alt="Image du CSN" />
     </section>
+
+    <div class="container text-center mt-5">
+        <img src="votre-image.jpg" alt="Image" class="img-thumbnail" data-toggle="modal" data-target="#imageModal" style="cursor: pointer; width: 200px;">
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="votre-image.jpg" alt="Image agrandie" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lien vers jQuery et Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <section class="accueil-introduction gsn">
         <div>
             <h2>Gestion de Parc Matériel- 2024</h2><br>

@@ -21,7 +21,8 @@ try{$req="CREATE TABLE `contact` (
   `id` int primary key auto_increment NOT NULL,
   `Nom_Prenom` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
-  `message` text NOT NULL
+  `message` text NOT NULL,
+    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 )";
     mysqli_query($conn,$req);
 }catch(Exception $e){

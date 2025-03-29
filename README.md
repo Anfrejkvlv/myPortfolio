@@ -43,7 +43,7 @@ Je suis ouvert à toute opportunité d’apprentissage et de collaboration sur d
 ## Me contacter
  **Email** : elouabahasra@gmail.com  
  **LinkedIn** : https://www.linkedin.com/in/loubah-emma/  
- **Portfolio** : loubahasra.emmanuel.kesug.com
+ **Portfolio** : https://www.myemmaloubahasra.kesug.com
 
 Pour une collaboration sur un projet ou discuter de nouvelles opportunités, n’hésite pas à me contacter ! 
 
