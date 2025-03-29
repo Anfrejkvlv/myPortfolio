@@ -36,7 +36,7 @@ Actuellement en **3e année de Licence Informatique** à la [FST Béni Mellal](h
 
 Je souhaite évoluer en tant que **Développeur Full Stack spécialisé en Intelligence Artificielle & Cybersécurité**,  
 en alliant **conception logicielle, optimisation des performances et sécurisation des systèmes**.  
-Je suis ouvert à toute opportunité d’apprentissage et de collaboration sur des projets innovants. 🚀
+Je suis ouvert à toute opportunité d’apprentissage et de collaboration sur des projets innovants. 
 
 ---
 
