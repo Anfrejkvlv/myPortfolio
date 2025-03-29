@@ -87,4 +87,4 @@
 
 
 
-<?php include '../config/footer.php'?>
+<?php include 'config/footer.php'?>

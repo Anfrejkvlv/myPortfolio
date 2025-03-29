@@ -62,4 +62,4 @@
         <img src="../images/3page_gestion.PNG" class="img-fluid" alt="Image du Gestion de parc materiel" />
     </section>
 
-<?php include '../config/footer.php'?>
+<?php include 'config/footer.php'?>
