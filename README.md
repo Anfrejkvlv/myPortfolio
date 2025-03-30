@@ -15,7 +15,7 @@ Actuellement en **3e année de Licence Informatique** à la [FST Béni Mellal](h
 
 ### **Front-End**
  **HTML, CSS, JavaScript (jQuery)**  
- **Angular** | **React.js** (en cours d'apprentissage)
+ **Angular** | (en cours d'apprentissage)
 
 ### **Base de Données & DevOps**
  **MySQL, Oracle** pour la gestion des données  
